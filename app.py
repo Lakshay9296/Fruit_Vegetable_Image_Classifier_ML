@@ -48,7 +48,6 @@ st.title("Image Classifier: Fruits/Vegetables", anchor=False)
 uploaded_file = st.file_uploader("Choose an Image", type=('.jpg', '.jpeg', '.png'))
 
 if uploaded_file is not None:
-    # Open the uploaded image file
     image = Image.open(uploaded_file)
     image_resized = image.resize((img_width, img_height))
     img_arr = tf.keras.utils.img_to_array(image_resized)
