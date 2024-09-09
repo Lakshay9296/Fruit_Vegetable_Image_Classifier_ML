@@ -3,22 +3,25 @@
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Features](#features)
-3. [Dataset](#dataset)
-4. [Model Architecture](#model-architecture)
-5. [Tech Stack](#tech-stack)
-6. [Results](#results)
+3. [Demo](#demo)
+4. [Dataset](#dataset)
+5. [Model Architecture](#model-architecture)
+6. [Tech Stack](#tech-stack)
+7. [Results](#results)
 
 ## Project Overview
 
-This project aims to identify different types of fruits and vegetables using image classification techniques. The model classifies over 20 categories, including apples, bananas, cabbages, tomatoes, and more.
-
-**Demo:** [Streamlit App](https://imageclassifierml.streamlit.app/)
+This project aims to identify different types of fruits and vegetables using image classification techniques. The model classifies over 30 categories, including apples, bananas, cabbages, tomatoes, and more.
 
 ## Features
 
 - Real-time classification of fruits and vegetables.
 - Easy-to-use web interface for uploading images.
 - High accuracy and fast predictions.
+
+## Demo
+
+You can try out the model and see its predictions in action at the following link: [Streamlit App](https://imageclassifierml.streamlit.app/)
 
 ## Dataset
 
